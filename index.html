@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Manejo de Redes Avanzadas</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+		<header>
+			<h1>Manejo de Redes Avanzadas</h1>
+			<p>Pagina principal de la asignatura — hecho por Jose Mosquera.</p>
+		</header>
+
+		<div class="app">
+			<aside class="toc" aria-label="Tabla de contenidos">
+				<div class="toc-header">
+					<input id="search" type="search" placeholder="Buscar clase, tema o recurso..." aria-label="Buscar contenido">
+				</div>
+				<ul id="toc-list" class="toc-list">
+					<li class="toc-item" data-target="clase-1" data-file="clase-1.html"><a href="#clase-1">Clase 1 — Redes básicas</a></li>
+					<li class="toc-item" data-target="clase-2" data-file="clase-2.html"><a href="#clase-2">Clase 2 — Enrutamiento Estático</a></li>
+					<li class="toc-item" data-target="clase-3" data-file="clase-3.html"><a href="#clase-3">Clase 3 — Enrutamiento Dinámico (RIP)</a></li>
+					<li class="toc-item" data-target="clase-4" data-file="clase-4.html"><a href="#clase-4">Clase 4 - Enrutamiento Dinamico (OSPF)</a></li>
+				</ul>
+			</aside>
+
+			<main class="content" id="content" tabindex="0">
+				<!-- Contenedor interior que gestiona padding y espaciado -->
+				<div class="inner">
+					<div class="content-placeholder">
+						<p>Cargando contenido...</p>
+					</div>
+					<iframe id="content-frame" title="Contenido de la clase" src="" frameborder="0" loading="lazy" sandbox="allow-same-origin allow-scripts" aria-label="Contenido de la clase"></iframe>
+				</div>
+			</main>
+		</div>
+
+		<footer>
+			<p>&copy; 2026 Jose Mosquera</p>
+		</footer>
+
+		<script src="main.js" defer></script>
+	</body>
+</html>
+
